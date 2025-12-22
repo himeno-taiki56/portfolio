@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="robots" content="noindex,nofollow">
+	<meta name="description" content="姫野大暉のポートフォリオサイトのコンソールアプリケーションのページです">
+	<title>姫野大暉 ポートフォリオ/WEBアプリケーションページ</title>
+	<link rel="icon" href="img/favicon.ico">
+	/*-- fonts --*/
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+	/*-- css --*/
+	<link href="css/ress.css" media="all" rel="stylesheet" type="text/css">
+	<link href="css/style.css" media="all" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<!-- header -->
+		<header class="header">
+			<div class="header-inner">
+				<h1 class="header-logo">
+					<a href="index.html">姫野大暉 Portfolio</a>
+				</h1>
+				<nav class="header-nav">
+					<ul class="header-nav-list">
+						<li class="header-nav-item"><a href="index.html#works">Works</a></li>
+						<li class="header-nav-item"><a href="index.html#skill">Skill</a></li>
+						<li class="header-nav-item"><a href="index.html#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- /header -->
+
+		<main class="content">
+
+			<article class="article">
+				<div class="article-inner">
+					<h2 class="article-title">WEBアプリケーション社員管理システム/個人開発演習</h2>
+					<p class="article-img">
+						<img src="img/emp_list_system.png" alt="WEBアプリケーション社員管理システムのイメージです。">
+					</p>
+					<div class="article-body">
+						<p>Spring BootとThymeleafを使って、社員管理システムのWebアプリケーションを実装しました。使用ツールはeclipseです。</p>
+						<h3 class="article-info-title">詳細</h3>
+						<p>ログイン機能と権限管理を備えており、一般ユーザーと管理者で表示項目や操作を制御しています。社員の一覧表示・社員名検索・部署名検索・登録・更新・削除に加え、一括削除機能も実装しました。一般ユーザは自分の情報のみ更新ができ、削除、一括削除機能については操作できないようになっています。
+						</p>
+						<h3 class="article-info-title">担当</h3>
+						<p>コーディング・SQL(30分)/コーディング・Java(30時間)/テスト(3時間)</p>
+						<h3 class="article-info-title">演習の目的</h3>
+						<p>Webアプリケーションの基本的な流れと構成を理解すること。具体的には、画面表示・入力処理・DB操作・権限管理を一通り実装することで、実務に近い開発の流れを学ぶこと。</p>
+						<h3 class="article-info-title">ポイント</h3>
+						<p>
+							検索条件が分かりやすくなるよう、現在どの条件で検索しているかを画面に表示し、すぐに初期状態に戻せる検索条件リセットボタンを実装しました。また、入力エラー時にはエラーメッセージにアニメーションを付け、ユーザーの視線が自然にエラー箇所に向くよう工夫しました。このような独自機能を追加することで、ユーザビリティを高めることを意識して実装しました。
+						</p>
+					</div>
+					<div class="home-link">
+						<a href="index.html">Works一覧へ</a>
+					</div>
+				</div>
+			</article>
+
+
+
+			<div class="page-top" id="js-page-top">
+				<span class="material-icons-outlined">expand_less</span>
+			</div>
+		</main>
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="copyright">&copy;姫野大暉</div>
+		</footer>
+		<!-- /footer -->
+
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
